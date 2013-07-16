@@ -13,6 +13,7 @@
 #import "PIViewController.h"
 
 @implementation PIAppDelegate
+@synthesize timer;
 
 - (void)dealloc
 {
@@ -31,10 +32,17 @@
     [viewC.view setBackgroundColor:[UIColor redColor]];
     [self.window setRootViewController:viewC];
  
-    NSTimer *t= [NSTimer timerWithTimeInterval:0.3 target:self selector:@selector(vibrate1) userInfo:nil repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:t forMode:NSDefaultRunLoopMode];
+    timer= [NSTimer timerWithTimeInterval:0.3 target:self selector:@selector(vibrate1) userInfo:nil repeats:YES];
+    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+    
+    [self performSelector:@selector(stopVibrate) withObject:nil afterDelay:11.0];
     
     return YES;
+}
+
+- (void)stopVibrate
+{
+    [timer invalidate];
 }
 
 - (void)vibrate1

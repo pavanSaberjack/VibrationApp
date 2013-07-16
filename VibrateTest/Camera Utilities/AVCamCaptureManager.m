@@ -426,7 +426,7 @@ bail:
 	UIDeviceOrientation deviceOrientation = [[UIDevice currentDevice] orientation];
     
     //patch for orientation problem
-    orientation = AVCaptureVideoOrientationLandscapeRight;
+    orientation = AVCaptureVideoOrientationPortrait;
     return;
     //
     

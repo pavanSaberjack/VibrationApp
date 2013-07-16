@@ -11,5 +11,5 @@
 @interface PIAppDelegate : UIResponder <UIApplicationDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, assign) NSTimer *timer;
 @end

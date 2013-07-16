@@ -8,6 +8,8 @@
 
 #import "PIViewController.h"
 #import "AVCamCaptureManager.h"
+#import "PIVideoPlayerViewController.h"
+#import "PIAppDelegate.h"
 
 @interface PIViewController ()<AVCamCaptureManagerDelegate>
 @property (nonatomic,retain) UIView *videoPreviewView;
@@ -35,25 +37,44 @@
     
     
     UIButton *recordButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [recordButton setFrame:CGRectMake(10, 10, 50, 50)];
-    [recordButton addTarget:self action:@selector(record) forControlEvents:UIControlEventTouchUpInside];
+    [recordButton setFrame:CGRectMake((self.view.frame.size.width/2 - 100)/2, self.view.frame.size.height - 70, 100, 40)];
+    [recordButton addTarget:self action:@selector(record:) forControlEvents:UIControlEventTouchUpInside];
+    [recordButton setTitle:@"record" forState:UIControlStateNormal];
     [self.view addSubview:recordButton];
     
     
     UIButton *stopButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [stopButton setFrame:CGRectMake(100, 10, 50, 50)];
-    [stopButton addTarget:self action:@selector(stop) forControlEvents:UIControlEventTouchUpInside];
+    [stopButton setFrame:CGRectMake((self.view.frame.size.width/2 + 30), self.view.frame.size.height - 70, 100, 40)];
+    [stopButton addTarget:self action:@selector(stop:) forControlEvents:UIControlEventTouchUpInside];
+    [stopButton setTitle:@"stop" forState:UIControlStateNormal];
     [self.view addSubview:stopButton];
+    
+    [self performSelector:@selector(stopas) withObject:nil afterDelay:10.0];
 }
 
-- (void)record
+- (void)record:(UIButton *)sender
 {
+    [sender setUserInteractionEnabled:NO];
+    [sender setAlpha:0.5];
     [[self captureManager] startRecording];
 }
 
-- (void)stop
+- (void)stopas
 {
     [[[self captureManager] session] stopRunning];
+    
+    //    PIAppDelegate *appdelegate = (PIAppDelegate *)[[UIApplication sharedApplication] delegate];
+    //    [appdelegate.timer invalidate];
+}
+
+- (void)stop:(UIButton *)sender
+{
+    [sender setUserInteractionEnabled:NO];
+    [sender setAlpha:0.5];
+    [[[self captureManager] session] stopRunning];
+    
+//    PIAppDelegate *appdelegate = (PIAppDelegate *)[[UIApplication sharedApplication] delegate];
+//    [appdelegate.timer invalidate];
 }
 
 - (void)didReceiveMemoryWarning
@@ -140,6 +161,9 @@
     errorRemove = nil;
     [[NSFileManager defaultManager] removeItemAtURL:captureManagerTemp.managetOutputFileURL error:&errorRemove];
     
+    
+    PIVideoPlayerViewController * vc = [[PIVideoPlayerViewController alloc] init];
+    [self presentModalViewController:vc animated:YES];
     
 }
 

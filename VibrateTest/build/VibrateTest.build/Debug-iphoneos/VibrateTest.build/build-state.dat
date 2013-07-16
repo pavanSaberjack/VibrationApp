@@ -2,26 +2,28 @@ TVibrateTest
 v5
 r1
 cCheck dependencies
+cProcessInfoPlistFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist VibrateTest/VibrateTest-Info.plist
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist
-cProcessInfoPlistFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist VibrateTest/VibrateTest-Info.plist
-cProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o /iPhoneApps/VibrateTest/VibrateTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o /iPhoneApps/VibrateTest/VibrateTest/PIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o "/iPhoneApps/VibrateTest/Camera Utilities/AVCamCaptureManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o /iPhoneApps/VibrateTest/VibrateTest/PIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o "/iPhoneApps/VibrateTest/Camera Utilities/AVCamUtilities.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o "/iPhoneApps/VibrateTest/Camera Utilities/AVCamRecorder.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7
-cGenerateDSYMFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
-cCopyPNGFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default@2x.png VibrateTest/Default@2x.png
-cCopyPNGFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default.png VibrateTest/Default.png
-cCopyStringsFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/en.lproj/InfoPlist.strings VibrateTest/en.lproj/InfoPlist.strings
-cCopyPNGFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default-568h@2x.png VibrateTest/Default-568h@2x.png
-cProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
-cTouch /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent
-cCodeSign /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+cProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.o /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7s
+cGenerateDSYMFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
+cCopyPNGFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default@2x.png VibrateTest/Default@2x.png
+cCopyStringsFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/en.lproj/InfoPlist.strings VibrateTest/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default.png VibrateTest/Default.png
+cCopyPNGFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default-568h@2x.png VibrateTest/Default-568h@2x.png
+cProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
+cTouch /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent
+cCodeSign /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
 c0000000050ED385D0000000000000110
@@ -107,6 +109,241 @@ N/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70
 c0000000051DA82100000000000004EEB
 t1373274640
 s20203
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.h
+c00000000503D9339000000000000012B
+t1346212665
+s299
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m
+c00000000503D9339000000000000032B
+t1346212665
+s811
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.h
+c00000000503D933600000000000010F3
+t1346212662
+s4339
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m
+c0000000051E50CE80000000000005846
+t1373965544
+s22598
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.h
+c00000000503D93360000000000000E54
+t1346212662
+s3668
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m
+c00000000503D933600000000000015DE
+t1346212662
+s5598
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.h
+c00000000503D93360000000000000AE7
+t1346212662
+s2791
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m
+c00000000503D93360000000000000BBC
+t1346212662
+s3004
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.h
+c0000000051E50C5700000000000000F3
+t1373965399
+s243
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m
+c0000000051E50C5700000000000002F2
+t1373965399
+s754
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.h
+c0000000051E50C5700000000000000F3
+t1373965399
+s243
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m
+c0000000051E5116B0000000000000DBB
+t1373966699
+s3515
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/Default-568h@2x.png
+c00000000515C9E6200000000000048A2
+t1365024354
+s18594
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/Default.png
+c00000000515C9E62000000000000198C
+t1365024354
+s6540
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/Default@2x.png
+c00000000515C9E620000000000003EEB
+t1365024354
+s16107
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.h
+c0000000051E511B60000000000000189
+t1373966774
+s393
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m
+c0000000051E516970000000000000C28
+t1373968023
+s3112
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.h
+c0000000051E3D5CA00000000000000DD
+t1373885898
+s221
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m
+c0000000051E5169700000000000019C0
+t1373968023
+s6592
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/VibrateTest-Prefix.pch
+c0000000051E3CC0E0000000000000145
+t1373883406
+s325
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/en.lproj/InfoPlist.strings
+c0000000051E3CC0E000000000000002D
+t1373883406
+s45
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m
+c0000000051E3CC0E0000000000000156
+t1373883406
+s342
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+t1373967969
+s408
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM
+t1373967969
+s102
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default-568h@2x.png
+t1373887360
+s7014
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default.png
+t1373887360
+s3688
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default@2x.png
+t1373887360
+s6316
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist
+t1373887287
+s1056
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/PkgInfo
+t1373887287
+s8
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist
+t1373887287
+s485
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
+t1373967969
+s109504
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
+t1373887360
+s20203
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/en.lproj/InfoPlist.strings
+t1373887360
+s42
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o
+t1373965545
+s88316
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o
+t1373965004
+s30160
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o
+t1373965004
+s14404
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o
+t1373967005
+s93448
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o
+t1373966699
+s91244
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o
+t1373967059
+s107852
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.o
+t1373966242
+s71996
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/VibrateTest.LinkFileList
+c0000000051E50FA10000000000000494
+t1373966241
+s1172
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o
+t1373966774
+s3328
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.o
+t1373967850
+s88316
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.o
+t1373967850
+s30160
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.o
+t1373967850
+s14404
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.o
+t1373967850
+s93448
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.o
+t1373967850
+s91244
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.o
+t1373967968
+s108588
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.o
+t1373967850
+s71996
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/VibrateTest.LinkFileList
+c0000000051E515E8000000000000049C
+t1373967848
+s1180
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.o
+t1373967849
+s3328
+
+N/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent
+t1373887360
+s428
 
 N/iPhoneApps/VibrateTest/Camera Utilities/AVCamCaptureManager.h
 c00000000503D933600000000000010F3
@@ -268,6 +505,14 @@ N/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.buil
 t1373887360
 s428
 
+N/var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.pth
+t1373965002
+s4594332
+
+N/var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.pth
+t1373967849
+s4594380
+
 N/var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.pth
 t1373887287
 s4594088
@@ -277,6 +522,15 @@ c0000000051E3CC0E0000000000000494
 t1373883406
 s1172
 
+CBuild AST from "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m"
+r0
+
+CBuild AST from "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m"
+r0
+
+CBuild AST from "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m"
+r0
+
 CBuild AST from "/iPhoneApps/VibrateTest/Camera Utilities/AVCamCaptureManager.m"
 r0
 
@@ -284,6 +538,24 @@ CBuild AST from "/iPhoneApps/VibrateTest/Camera Utilities/AVCamRecorder.m"
 r0
 
 CBuild AST from "/iPhoneApps/VibrateTest/Camera Utilities/AVCamUtilities.m"
+r0
+
+CBuild AST from /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m
+r0
+
+CBuild AST from /Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m
+r0
+
+CBuild AST from /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m
+r0
+
+CBuild AST from /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m
+r0
+
+CBuild AST from /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m
+r0
+
+CBuild AST from /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m
 r0
 
 CBuild AST from /iPhoneApps/VibrateTest/VibrateTest/PIAppDelegate.m
@@ -297,7 +569,15 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa8e24e403c95b741^79234f403c95b741^---0#1#0#--18"Check dependencies36"6D0BCD9B-479A-4E1A-BC49-D66F490EF4C6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc58f85174e95b741^2105bb174e95b741^---0#1#0#--18"Check dependencies36"8E4FF366-20B7-4862-B2D7-DA3422B1F290-
+
+CCodeSign /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+s395660824.064943
+e395660824.168546
+r1
+xCodeSign
+x/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"CodeSign build/Debug-iphoneos/VibrateTest.app66bd10184e95b741^92252b184e95b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/0000000000000000^860"CodeSign build/Debug-iphoneos/VibrateTest.app    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 735343ae4b8748a25f6adc6e4d3d41e883bb4a3d --resource-rules=/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist --entitlements /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app36"47B6FA24-2730-4437-BA5B-2F6F65F68D95-
 
 CCodeSign /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app
 s395656256.815697
@@ -306,6 +586,19 @@ r1
 xCodeSign
 x/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"CodeSign build/Debug-iphoneos/VibrateTest.appd636d1403c95b741^b16cfe403c95b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/0000000000000000^752"CodeSign build/Debug-iphoneos/VibrateTest.app    cd /iPhoneApps/VibrateTest    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 735343ae4b8748a25f6adc6e4d3d41e883bb4a3d --resource-rules=/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist --entitlements /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app36"27B8A5F8-1CB6-439D-B8E6-78082C8BDC7C-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395658345.679883
+e395658345.920190
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m7026ae694495b741^3108ec694495b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/Camera%20Utilities/AVCamCaptureManager.m0000000000000000^3579"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o "Camera Utilities/AVCamCaptureManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.dia -c "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m" -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o36"1747EBE5-0760-4819-A742-7157E86FEC9A-
 
 CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o "/iPhoneApps/VibrateTest/Camera Utilities/AVCamCaptureManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395656232.927855
@@ -320,6 +613,19 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /iPhoneApps/VibrateTest/Camera Utilities/AVCamCaptureManager.m4ab3ed283c95b741^b8ad652a3c95b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/iPhoneApps/VibrateTest/Camera%20Utilities/AVCamCaptureManager.m0000000000000000^3228"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o "Camera Utilities/AVCamCaptureManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.d --serialize-diagnostics /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.dia -c "/iPhoneApps/VibrateTest/Camera Utilities/AVCamCaptureManager.m" -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamCaptureManager.o36"F61C9A66-DEE7-4377-BF6A-74D7AD54B43D-
 
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395657804.291330
+e395657804.466891
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m7fbd4a4c4295b741^d785774c4295b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/Camera%20Utilities/AVCamRecorder.m0000000000000000^3543"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o "Camera Utilities/AVCamRecorder.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.dia -c "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m" -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o36"754CBC8B-4E30-45C9-9663-8BC85CE3290F-
+
 CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o "/iPhoneApps/VibrateTest/Camera Utilities/AVCamRecorder.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395654215.943216
 e395654216.250558
@@ -332,6 +638,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /iPhoneApps/VibrateTest/Camera Utilities/AVCamRecorder.m3a90f1473495b741^64cc41483495b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/iPhoneApps/VibrateTest/Camera%20Utilities/AVCamRecorder.m0000000000000000^3192"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o "Camera Utilities/AVCamRecorder.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.d --serialize-diagnostics /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.dia -c "/iPhoneApps/VibrateTest/Camera Utilities/AVCamRecorder.m" -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamRecorder.o36"A25C3C03-92A4-468A-958A-F76E894B7ECB-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395657804.319597
+e395657804.467215
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m4cfc514c4295b741^289a774c4295b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/Camera%20Utilities/AVCamUtilities.m0000000000000000^3549"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o "Camera Utilities/AVCamUtilities.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.dia -c "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m" -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o36"D0827B65-2F86-4AB3-96F5-13114C228E4D-
 
 CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o "/iPhoneApps/VibrateTest/Camera Utilities/AVCamUtilities.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395654215.943219
@@ -346,6 +665,19 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /iPhoneApps/VibrateTest/Camera Utilities/AVCamUtilities.m639af1473495b741^19c641483495b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/iPhoneApps/VibrateTest/Camera%20Utilities/AVCamUtilities.m0000000000000000^3198"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o "Camera Utilities/AVCamUtilities.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.d --serialize-diagnostics /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.dia -c "/iPhoneApps/VibrateTest/Camera Utilities/AVCamUtilities.m" -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/AVCamUtilities.o36"1A346AAB-05D4-492C-9100-2DD987D416D6-
 
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395659805.337103
+e395659805.436537
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.md66f561d4a95b741^6ec06f1d4a95b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m0000000000000000^3529"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o VibrateTest/PIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o36"B618DF5B-B429-4F3D-AC55-F03748EAE2DD-
+
 CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o /iPhoneApps/VibrateTest/VibrateTest/PIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395655763.379156
 e395655763.550095
@@ -358,6 +690,45 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /iPhoneApps/VibrateTest/VibrateTest/PIAppDelegate.mdb3161533a95b741^5fd28c533a95b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/iPhoneApps/VibrateTest/VibrateTest/PIAppDelegate.m0000000000000000^3178"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o VibrateTest/PIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.d --serialize-diagnostics /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.dia -c /iPhoneApps/VibrateTest/VibrateTest/PIAppDelegate.m -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIAppDelegate.o36"3B2D02C1-860E-4DB2-B9BC-2DC34F58E563-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395658345.682319
+e395658345.744418
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m8acaae694495b741^5391be694495b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m0000000000000000^3589"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o PIVideoPlayerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/PIVideoPlayerViewController.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o36"A8C8EF3E-ABB5-480E-95FB-483521922F9F-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395659499.796895
+e395659500.020576
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.mdd26cceb4895b741^8d4705ec4895b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m0000000000000000^3619"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o VibrateTest/../PIVideoPlayerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIVideoPlayerViewController.o36"F4141A7D-A9FC-41E2-B1B9-2FE8655FC33E-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395659859.503163
+e395659859.702354
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m41f080534a95b741^b7d2b3534a95b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m0000000000000000^3547"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o VibrateTest/PIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o36"4B75C5F4-A17B-4465-92B6-772F2A83C248-
 
 CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o /iPhoneApps/VibrateTest/VibrateTest/PIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395656256.346330
@@ -372,6 +743,32 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /iPhoneApps/VibrateTest/VibrateTest/PIViewController.ma1da58403c95b741^63988f403c95b741^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/iPhoneApps/VibrateTest/VibrateTest/PIViewController.m0000000000000000^3196"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o VibrateTest/PIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.d --serialize-diagnostics /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.dia -c /iPhoneApps/VibrateTest/VibrateTest/PIViewController.m -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PIViewController.o36"ECE9DB05-CFE5-4B5D-83DB-8C72926756CB-
 
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.o /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395659041.932075
+e395659042.099565
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.mcbbbee214795b741^3d7c19224795b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m0000000000000000^3513"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.o AVPlayerView/PlayerView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/PlayerView.o36"B4CC0FDD-355C-4709-8952-AF6B0C4DC25A-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395659574.155343
+e395659574.183614
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.me6e627364995b741^54012f364995b741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m0000000000000000^3475"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o VibrateTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o36"EADAB34C-2236-43C2-9EC2-C33B4BEFF93E-
+
 CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o /iPhoneApps/VibrateTest/VibrateTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395580087.963219
 e395580087.994418
@@ -384,6 +781,119 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /iPhoneApps/VibrateTest/VibrateTest/main.m2ac9f6b71294b741^b891feb71294b741^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/iPhoneApps/VibrateTest/VibrateTest/main.m0000000000000000^3124"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o VibrateTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.d --serialize-diagnostics /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.dia -c /iPhoneApps/VibrateTest/VibrateTest/main.m -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/main.o36"2B0CB5B2-A244-44E9-8CBE-56F32549D9F8-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660649.748265
+e395660650.186608
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.mfebabf694d95b741^ea423c6a4d95b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/Camera%20Utilities/AVCamCaptureManager.m0000000000000000^3586"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.o "Camera Utilities/AVCamCaptureManager.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.dia -c "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamCaptureManager.m" -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamCaptureManager.o36"F6C24E7F-E41A-423C-8004-866BFADA219A-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660650.103617
+e395660650.433902
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m85b41a6a4d95b741^e5256f6a4d95b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/Camera%20Utilities/AVCamRecorder.m0000000000000000^3550"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.o "Camera Utilities/AVCamRecorder.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.dia -c "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamRecorder.m" -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamRecorder.o36"141818BB-E78B-40B5-9E72-51B18F0C0A4A-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.o "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660649.742953
+e395660650.102250
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.mee79be694d95b741^d02b1a6a4d95b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/Camera%20Utilities/AVCamUtilities.m0000000000000000^3556"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.o "Camera Utilities/AVCamUtilities.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.dia -c "/Users/pavan/github/local/VibrationApp/VibrateTest/Camera Utilities/AVCamUtilities.m" -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/AVCamUtilities.o36"CF764112-2604-47BB-B909-8B7DA9CAA7BC-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660823.753734
+e395660823.844425
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m8a1dc1174e95b741^302bd8174e95b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m0000000000000000^3536"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.o VibrateTest/PIAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIAppDelegate.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIAppDelegate.o36"3C8A5892-609E-4612-8790-6C827AC3E78E-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660650.194701
+e395660650.712099
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m04393c6a4d95b741^581fb76a4d95b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m0000000000000000^3626"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.o VibrateTest/../PIVideoPlayerViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/../PIVideoPlayerViewController.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIVideoPlayerViewController.o36"DCAC3E5B-408D-4A76-8DB0-4B1AA339B9D3-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660823.753750
+e395660823.899518
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.mcd1dc1174e95b741^d046e6174e95b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m0000000000000000^3554"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.o VibrateTest/PIViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/PIViewController.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PIViewController.o36"0D522596-F880-4C26-873F-6FF0FCAC4AAA-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.o /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660650.198605
+e395660650.691892
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m302f3c6a4d95b741^2e1fb16a4d95b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m0000000000000000^3520"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.o AVPlayerView/PlayerView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/AVPlayerView/PlayerView.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/PlayerView.o36"6678C188-0A17-4913-9BF1-2D8BB96CE8E6-
+
+CCompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.o /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660649.743292
+e395660649.874249
+r1
+xCompileC
+xbuild/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.o
+x/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.mf06dbe694d95b741^c8d2df694d95b741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m0000000000000000^3482"CompileC build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.o VibrateTest/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -include /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch -MMD -MT dependencies -MF /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/main.m -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/main.o36"8E8811D4-C695-4C51-8F0F-E55F53645452-
+
+CCopyPNGFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default-568h@2x.png VibrateTest/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default.png VibrateTest/Default.png
+r0
+
+CCopyPNGFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default@2x.png VibrateTest/Default@2x.png
+r0
 
 CCopyPNGFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default-568h@2x.png VibrateTest/Default-568h@2x.png
 s395580160.124601
@@ -412,6 +922,9 @@ x/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default@2x.png
 xVibrateTest/Default@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Debug-iphoneos/VibrateTest.app/Default@2x.png VibrateTest/Default@2x.pngaef31f001394b741^8a903a001394b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/iPhoneApps/VibrateTest/VibrateTest/Default@2x.png0000000000000000^559"CopyPNGFile "build/Debug-iphoneos/VibrateTest.app/Default@2x.png" "VibrateTest/Default@2x.png"    cd /iPhoneApps/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/iPhoneApps/VibrateTest/VibrateTest/Default@2x.png" "/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Default@2x.png"36"70E633CB-F9F8-4594-85ED-06F8C364671F-
 
+CCopyStringsFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/en.lproj/InfoPlist.strings VibrateTest/en.lproj/InfoPlist.strings
+r0
+
 CCopyStringsFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/en.lproj/InfoPlist.strings VibrateTest/en.lproj/InfoPlist.strings
 s395580160.124248
 e395580160.142359
@@ -430,6 +943,15 @@ x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 xbuild/Debug-iphoneos/VibrateTest.app/ResourceRules.plist
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/VibrateTest.app/ResourceRules.plista7409ab71294b741^ac1b9bb71294b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist000000000080d041^704"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist    cd /iPhoneApps/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app36"DADE1DC1-4881-4D1A-A52E-E232DD146C4F-
 
+CGenerateDSYMFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
+s395660823.976076
+e395660824.007582
+r1
+xGenerateDSYMFile
+x/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM
+x/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYMa4fbf9174e95b741^80f001184e95b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM/0000000000000000^650"GenerateDSYMFile build/Debug-iphoneos/VibrateTest.app.dSYM build/Debug-iphoneos/VibrateTest.app/VibrateTest    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM36"D3823F9D-F023-488D-A0A7-9B5C4DBCFB73-
+
 CGenerateDSYMFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
 s395656256.655261
 e395656256.707500
@@ -438,6 +960,26 @@ xGenerateDSYMFile
 x/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM
 x/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Generate /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYMb309a8403c95b741^e5f0b5403c95b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM/0000000000000000^569"GenerateDSYMFile build/Debug-iphoneos/VibrateTest.app.dSYM build/Debug-iphoneos/VibrateTest.app/VibrateTest    cd /iPhoneApps/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest -o /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app.dSYM36"071B5998-C338-46D2-B586-26C7EB5A769A-
+
+CLd /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7
+s395659859.709032
+e395659859.742207
+r1
+xLd
+x/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest399cb5534a95b741^1d03be534a95b741^---0#0#0#--1275"Ld build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -filelist /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/VibrateTest.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AVFoundation -framework ImageIO -framework CoreMedia -framework CoreVideo -framework AssetsLibrary -framework MobileCoreServices -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest36"53686989-A586-4E1B-AD23-88ED44516914-
+
+CLd /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7s
+s395660823.906550
+e395660823.943732
+r1
+xLd
+x/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest2c28e8174e95b741^5b98f1174e95b741^---0#0#0#--1278"Ld build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7s    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos -filelist /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7s/VibrateTest.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AVFoundation -framework ImageIO -framework CoreMedia -framework CoreVideo -framework AssetsLibrary -framework MobileCoreServices -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest36"5D664AAA-D697-4AFE-ABEC-4B366CB52F8D-
 
 CLd /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7
 s395656256.568081
@@ -449,6 +991,9 @@ xnormal
 xarmv7
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Link /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest8c1595403c95b741^b30ba2403c95b741^---0#0#0#--1140"Ld build/Debug-iphoneos/VibrateTest.app/VibrateTest normal armv7    cd /iPhoneApps/VibrateTest    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/iPhoneApps/VibrateTest/build/Debug-iphoneos -F/iPhoneApps/VibrateTest/build/Debug-iphoneos -filelist /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/Objects-normal/armv7/VibrateTest.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AVFoundation -framework ImageIO -framework CoreMedia -framework CoreVideo -framework AssetsLibrary -framework MobileCoreServices -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -o /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/VibrateTest36"5B72D92A-0F35-46AE-ACD5-6A958CC2407F-
 
+CProcessInfoPlistFile /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist VibrateTest/VibrateTest-Info.plist
+r0
+
 CProcessInfoPlistFile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist VibrateTest/VibrateTest-Info.plist
 s395580087.602196
 e395580087.605441
@@ -458,8 +1003,40 @@ x/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist
 xVibrateTest/VibrateTest-Info.plist
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process VibrateTest/VibrateTest-Info.plist85409ab71294b741^51119bb71294b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/iPhoneApps/VibrateTest/VibrateTest/VibrateTest-Info.plist0000000000000000^698"ProcessInfoPlistFile build/Debug-iphoneos/VibrateTest.app/Info.plist VibrateTest/VibrateTest-Info.plist    cd /iPhoneApps/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VibrateTest/VibrateTest-Info.plist -genpkginfo /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/ResourceRules.plist -o /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/Info.plist36"F3881051-F16B-4015-9A80-7801E2860189-
 
+CProcessPCH /Users/pavan/Library/Developer/Xcode/DerivedData/VibrateTest-ckwgqrgzahczrddpjxwcnvaskybb/Index/PrecompiledHeaders/VibrateTest-Prefix-bnidctrxgancqxfbhrzrcsofinyx_ast/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/pavan/Library/Developer/Xcode/DerivedData/VibrateTest-ckwgqrgzahczrddpjxwcnvaskybb/Index/PrecompiledHeaders/VibrateTest-Prefix-brhaiebtruebyueuhgdyhoztqgil_ast/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessPCH /Users/pavan/Library/Developer/Xcode/DerivedData/VibrateTest-cxrqipovzzpelgbshqbtpilgmqmv/Index/PrecompiledHeaders/VibrateTest-Prefix-fslkihgkjcsbjxfdljuqucglnfvo_ast/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395657798.541165
+e395657802.734028
+r1
+xProcessPCH
+x/var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.pth
+xVibrateTest/VibrateTest-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile VibrateTest/VibrateTest-Prefix.pch97ac8a464295b741^32e9bb4a4295b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/VibrateTest-Prefix.pch0000000000000000^3521"ProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos --serialize-diagnostics /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/VibrateTest-Prefix.pch -o /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-bhjxqeruvvzgfvedspmmtptmufmw/VibrateTest-Prefix.pch.d36"671F82E6-7AFC-45FF-A0DA-CE2AF4C293EF-
+
+CProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395660648.693688
+e395660649.703035
+r1
+xProcessPCH
+x/var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.pth
+xVibrateTest/VibrateTest-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile VibrateTest/VibrateTest-Prefix.pchbebfb1684d95b741^b5f9b3694d95b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/VibrateTest-Prefix.pch0000000000000000^3524"ProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7s -I/Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos --serialize-diagnostics /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.dia -c /Users/pavan/github/local/VibrationApp/VibrateTest/VibrateTest/VibrateTest-Prefix.pch -o /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-heerhcfceuhcdpfxlmcrevyzpjzt/VibrateTest-Prefix.pch.d36"6E07F514-3BF4-43B9-B1FE-57D3B226AD2D-
 
 CProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395580087.613247
@@ -474,6 +1051,9 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile VibrateTest/VibrateTest-Prefix.pch321e9db71294b741^6ac0f4b71294b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/iPhoneApps/VibrateTest/VibrateTest/VibrateTest-Prefix.pch0000000000000000^3251"ProcessPCH /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.pth VibrateTest/VibrateTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /iPhoneApps/VibrateTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-generated-files.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-own-target-headers.hmap -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-all-target-headers.hmap -iquote /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest-project-headers.hmap -I/iPhoneApps/VibrateTest/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources/armv7 -I/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/DerivedSources -F/iPhoneApps/VibrateTest/build/Debug-iphoneos --serialize-diagnostics /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.dia -c /iPhoneApps/VibrateTest/VibrateTest/VibrateTest-Prefix.pch -o /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t_/zg68k2jd7n7bssrygk0zhkbw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VibrateTest-Prefix-hgihjezfsckkwtcuoteykgagwihp/VibrateTest-Prefix.pch.d36"1E5F545D-33C0-4E4F-8A5C-37FDD57B245A-
 
+CProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
+r0
+
 CProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
 s395580160.266433
 e395580160.269414
@@ -483,6 +1063,9 @@ x/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70
 x/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"ProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision944e44001394b741^1ff844001394b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision0000000000000000^652"ProcessProductPackaging "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision    cd /iPhoneApps/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/pavan/Library/MobileDevice/Provisioning Profiles/CC6406A9-EE35-459A-AE70-954EB2733719.mobileprovision" -o /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app/embedded.mobileprovision36"612C7C49-C5BD-4F76-A21F-D6E92E1A4132-
 
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/pavan/github/local/VibrationApp/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent
+r0
+
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent
 s395580160.291344
 e395580160.294307
@@ -491,6 +1074,14 @@ xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
 x/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent93a94a001394b741^d6574b001394b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent000000000080d041^724"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent    cd /iPhoneApps/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /iPhoneApps/VibrateTest/build/VibrateTest.build/Debug-iphoneos/VibrateTest.build/VibrateTest.xcent36"7E60EA3A-7812-4C06-979F-5CD2B28E13CC-
+
+CTouch /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+s395660824.040631
+e395660824.047722
+r1
+xTouch
+x/Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.appf67b0a184e95b741^ef390c184e95b741^---0#0#0#--399"Touch build/Debug-iphoneos/VibrateTest.app    cd /Users/pavan/github/local/VibrationApp/VibrateTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pavan/github/local/VibrationApp/VibrateTest/build/Debug-iphoneos/VibrateTest.app36"416BC884-BBC9-49FA-9A23-038B13F3879E-
 
 CTouch /iPhoneApps/VibrateTest/build/Debug-iphoneos/VibrateTest.app
 s395656256.766875

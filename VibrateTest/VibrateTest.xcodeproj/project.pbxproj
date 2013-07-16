@@ -27,6 +27,8 @@
 		8BB88349179534B8005B1663 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB88348179534B8005B1663 /* CoreMedia.framework */; };
 		8BB8834B179534C8005B1663 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8834A179534C8005B1663 /* ImageIO.framework */; };
 		8BB8834D179534F9005B1663 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8834C179534F9005B1663 /* AVFoundation.framework */; };
+		8BB88350179543D8005B1663 /* PIVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8834F179543D8005B1663 /* PIVideoPlayerViewController.m */; };
+		8BB88354179544DD005B1663 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB88353179544DD005B1663 /* PlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,10 @@
 		8BB88348179534B8005B1663 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		8BB8834A179534C8005B1663 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		8BB8834C179534F9005B1663 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8BB8834E179543D8005B1663 /* PIVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIVideoPlayerViewController.h; path = ../PIVideoPlayerViewController.h; sourceTree = "<group>"; };
+		8BB8834F179543D8005B1663 /* PIVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIVideoPlayerViewController.m; path = ../PIVideoPlayerViewController.m; sourceTree = "<group>"; };
+		8BB88352179544DD005B1663 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		8BB88353179544DD005B1663 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		8BAF6B1C1794038D00091094 = {
 			isa = PBXGroup;
 			children = (
+				8BB88351179544DD005B1663 /* AVPlayerView */,
 				8BB8833A1795333C005B1663 /* Camera Utilities */,
 				8BAF6B2E1794038D00091094 /* VibrateTest */,
 				8BAF6B271794038D00091094 /* Frameworks */,
@@ -124,6 +131,8 @@
 				8BAF6B2F1794038E00091094 /* Supporting Files */,
 				8BAF6B4717940D4A00091094 /* PIViewController.h */,
 				8BAF6B4817940D4A00091094 /* PIViewController.m */,
+				8BB8834E179543D8005B1663 /* PIVideoPlayerViewController.h */,
+				8BB8834F179543D8005B1663 /* PIVideoPlayerViewController.m */,
 			);
 			path = VibrateTest;
 			sourceTree = "<group>";
@@ -153,6 +162,15 @@
 				8BB883401795333C005B1663 /* AVCamUtilities.m */,
 			);
 			path = "Camera Utilities";
+			sourceTree = "<group>";
+		};
+		8BB88351179544DD005B1663 /* AVPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				8BB88352179544DD005B1663 /* PlayerView.h */,
+				8BB88353179544DD005B1663 /* PlayerView.m */,
+			);
+			path = AVPlayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +245,8 @@
 				8BB883411795333C005B1663 /* AVCamCaptureManager.m in Sources */,
 				8BB883421795333C005B1663 /* AVCamRecorder.m in Sources */,
 				8BB883431795333C005B1663 /* AVCamUtilities.m in Sources */,
+				8BB88350179543D8005B1663 /* PIVideoPlayerViewController.m in Sources */,
+				8BB88354179544DD005B1663 /* PlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
