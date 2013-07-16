@@ -26,29 +26,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    
-        
-    
-    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
-    //[[imagePicker view] setFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-    [imagePicker setSourceType:UIImagePickerControllerSourceTypeCamera];
-    [imagePicker setDelegate:self];
-    [imagePicker setEditing:YES];
-    [imagePicker setAllowsEditing:YES];
-  //  imagePicker.mediaTypes = [NSArray arrayWithObject:(NSString *)kUTTypeMovie];
    
-    [self.window setRootViewController:imagePicker];
-    
-    
-//    NSThread * thr = [[NSThread alloc] initWithTarget:self selector:@selector(vibrate) object:nil];
-//    [thr start];
-//    
+    PIViewController *viewC = [[PIViewController alloc] init];
+    [viewC.view setBackgroundColor:[UIColor redColor]];
+    [self.window setRootViewController:viewC];
+ 
     NSTimer *t= [NSTimer timerWithTimeInterval:0.3 target:self selector:@selector(vibrate1) userInfo:nil repeats:YES];
     [[NSRunLoop currentRunLoop] addTimer:t forMode:NSDefaultRunLoopMode];
-
-    
-//    [NSThread detachNewThreadSelector:@selector(vibrate) toTarget:self withObject:nil];
     
     return YES;
 }

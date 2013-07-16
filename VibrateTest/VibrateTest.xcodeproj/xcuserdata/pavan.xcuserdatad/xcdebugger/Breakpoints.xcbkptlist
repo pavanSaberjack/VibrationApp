@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VibrateTest/PIAppDelegate.m"
-         timestampString = "395580520.999646"
+         timestampString = "395653903.559632"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "63"
-         endingLineNumber = "63"
+         startingLineNumber = "47"
+         endingLineNumber = "47"
          landmarkName = "-vibrate"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VibrateTest/PIAppDelegate.m"
-         timestampString = "395580520.999646"
+         timestampString = "395653903.559632"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "58"
-         endingLineNumber = "58"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
          landmarkName = "-vibrate1"
          landmarkType = "5">
       </FileBreakpoint>

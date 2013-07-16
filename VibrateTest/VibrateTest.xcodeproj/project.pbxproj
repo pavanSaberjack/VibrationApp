@@ -19,6 +19,14 @@
 		8BAF6B3F1794038E00091094 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAF6B3E1794038E00091094 /* Default-568h@2x.png */; };
 		8BAF6B46179403B500091094 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAF6B45179403B500091094 /* AudioToolbox.framework */; };
 		8BAF6B4917940D4A00091094 /* PIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF6B4817940D4A00091094 /* PIViewController.m */; };
+		8BB883411795333C005B1663 /* AVCamCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8833C1795333C005B1663 /* AVCamCaptureManager.m */; };
+		8BB883421795333C005B1663 /* AVCamRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8833E1795333C005B1663 /* AVCamRecorder.m */; };
+		8BB883431795333C005B1663 /* AVCamUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB883401795333C005B1663 /* AVCamUtilities.m */; };
+		8BB883451795346B005B1663 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB883441795346B005B1663 /* AssetsLibrary.framework */; };
+		8BB88347179534B0005B1663 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB88346179534B0005B1663 /* CoreVideo.framework */; };
+		8BB88349179534B8005B1663 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB88348179534B8005B1663 /* CoreMedia.framework */; };
+		8BB8834B179534C8005B1663 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8834A179534C8005B1663 /* ImageIO.framework */; };
+		8BB8834D179534F9005B1663 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8834C179534F9005B1663 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +47,17 @@
 		8BAF6B45179403B500091094 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		8BAF6B4717940D4A00091094 /* PIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIViewController.h; sourceTree = "<group>"; };
 		8BAF6B4817940D4A00091094 /* PIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIViewController.m; sourceTree = "<group>"; };
+		8BB8833B1795333C005B1663 /* AVCamCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCaptureManager.h; sourceTree = "<group>"; };
+		8BB8833C1795333C005B1663 /* AVCamCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCaptureManager.m; sourceTree = "<group>"; };
+		8BB8833D1795333C005B1663 /* AVCamRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamRecorder.h; sourceTree = "<group>"; };
+		8BB8833E1795333C005B1663 /* AVCamRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamRecorder.m; sourceTree = "<group>"; };
+		8BB8833F1795333C005B1663 /* AVCamUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamUtilities.h; sourceTree = "<group>"; };
+		8BB883401795333C005B1663 /* AVCamUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamUtilities.m; sourceTree = "<group>"; };
+		8BB883441795346B005B1663 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8BB88346179534B0005B1663 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8BB88348179534B8005B1663 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8BB8834A179534C8005B1663 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8BB8834C179534F9005B1663 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB8834D179534F9005B1663 /* AVFoundation.framework in Frameworks */,
+				8BB8834B179534C8005B1663 /* ImageIO.framework in Frameworks */,
+				8BB88349179534B8005B1663 /* CoreMedia.framework in Frameworks */,
+				8BB88347179534B0005B1663 /* CoreVideo.framework in Frameworks */,
+				8BB883451795346B005B1663 /* AssetsLibrary.framework in Frameworks */,
 				8BAA8BBF179411DC0027383A /* MobileCoreServices.framework in Frameworks */,
 				8BAF6B46179403B500091094 /* AudioToolbox.framework in Frameworks */,
 				8BAF6B291794038D00091094 /* UIKit.framework in Frameworks */,
@@ -60,6 +84,7 @@
 		8BAF6B1C1794038D00091094 = {
 			isa = PBXGroup;
 			children = (
+				8BB8833A1795333C005B1663 /* Camera Utilities */,
 				8BAF6B2E1794038D00091094 /* VibrateTest */,
 				8BAF6B271794038D00091094 /* Frameworks */,
 				8BAF6B261794038D00091094 /* Products */,
@@ -77,6 +102,11 @@
 		8BAF6B271794038D00091094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BB8834C179534F9005B1663 /* AVFoundation.framework */,
+				8BB8834A179534C8005B1663 /* ImageIO.framework */,
+				8BB88348179534B8005B1663 /* CoreMedia.framework */,
+				8BB88346179534B0005B1663 /* CoreVideo.framework */,
+				8BB883441795346B005B1663 /* AssetsLibrary.framework */,
 				8BAA8BBE179411DC0027383A /* MobileCoreServices.framework */,
 				8BAF6B45179403B500091094 /* AudioToolbox.framework */,
 				8BAF6B281794038D00091094 /* UIKit.framework */,
@@ -110,6 +140,19 @@
 				8BAF6B3E1794038E00091094 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB8833A1795333C005B1663 /* Camera Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8833B1795333C005B1663 /* AVCamCaptureManager.h */,
+				8BB8833C1795333C005B1663 /* AVCamCaptureManager.m */,
+				8BB8833D1795333C005B1663 /* AVCamRecorder.h */,
+				8BB8833E1795333C005B1663 /* AVCamRecorder.m */,
+				8BB8833F1795333C005B1663 /* AVCamUtilities.h */,
+				8BB883401795333C005B1663 /* AVCamUtilities.m */,
+			);
+			path = "Camera Utilities";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +224,9 @@
 				8BAF6B351794038E00091094 /* main.m in Sources */,
 				8BAF6B391794038E00091094 /* PIAppDelegate.m in Sources */,
 				8BAF6B4917940D4A00091094 /* PIViewController.m in Sources */,
+				8BB883411795333C005B1663 /* AVCamCaptureManager.m in Sources */,
+				8BB883421795333C005B1663 /* AVCamRecorder.m in Sources */,
+				8BB883431795333C005B1663 /* AVCamUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
